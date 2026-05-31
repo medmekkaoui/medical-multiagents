@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local secrets
+.env
+
+# Runtime artifacts
+backend/reports/*.pdf
+backend/*.log
+backend/medical.db
+backend/.langgraph_api/
